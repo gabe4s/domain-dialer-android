@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/titleLabel"
+            android:id="@+id/domainTextBox"
             android:layout_width="340dp"
             android:layout_height="50dp"
             android:layout_marginBottom="8dp"
@@ -30,14 +30,14 @@
             android:inputType="textPersonName"
             android:textColor="#222222"
             android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintBottom_toTopOf="@+id/dialButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/domainTextBox" />
+            app:layout_constraintTop_toBottomOf="@+id/titleLabel" />
 
         <TextView
-            android:id="@+id/domainTextBox"
+            android:id="@+id/titleLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
@@ -61,7 +61,7 @@
             app:layout_constraintGuide_begin="20dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/dialButton"
             android:layout_width="340dp"
             android:layout_height="60dp"
             android:layout_marginBottom="48dp"
@@ -79,7 +79,7 @@
     </android.support.constraint.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/infoTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -95,7 +95,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/infoDescription"
         android:layout_width="320dp"
         android:layout_height="171dp"
         android:layout_marginBottom="8dp"
@@ -109,5 +109,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/infoTitle" />
 </android.support.constraint.ConstraintLayout>
